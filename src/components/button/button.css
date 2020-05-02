@@ -1,0 +1,23 @@
+.test {
+    box-shadow: 0px 0px 2px  blueviolet;
+    color:blueviolet;
+    padding: 10px;
+    background: transparent;
+    width: 5rem!important;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 40rem;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.test:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all .5s;
+}
+.test:active{
+    margin-top: 48px;
+    box-shadow: 0px 5px 12px blueviolet;
+}

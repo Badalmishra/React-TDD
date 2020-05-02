@@ -1,11 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import Button from './button';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<App />)
+    .create(<Button label="Click Me"/>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
